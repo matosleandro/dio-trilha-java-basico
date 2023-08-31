@@ -1,22 +1,15 @@
-//Operadores Unários
-        //Eles realizam alguns trabalhos básicos como incrementar, decrementar, inverter valores numéricos e booleanos.
-        //(+) Operador unário de valor positivo
-        //(-) Operador unário de valor negativo
-        //(++) Operador unário de incremento de valor
-        //(--) Operador unário de valor negativo
-        //(!) Operador unário lógico de negação
-
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
+        //int numero =5;
+        //x repeticao
+        //numero++;
+        //numero = numero +1;
+        //System.out.println( numero -- );
+        //System.out.println(numero);
+        boolean variavel = true;
 
-        numero = - numero;
-
-        System.out.println(numero);
-
-        numero = numero * -1;
-
-        System.out.println(numero);
-
+        variavel = !variavel;
+        
+        System.out.print(variavel);
     }
 }
