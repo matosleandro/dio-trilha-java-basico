@@ -1,15 +1,21 @@
 public class Operadores {
     public static void main(String[] args) {
-        //int numero =5;
-        //x repeticao
-        //numero++;
-        //numero = numero +1;
-        //System.out.println( numero -- );
-        //System.out.println(numero);
-        boolean variavel = true;
+        int a, b;
 
-        variavel = !variavel;
-        
-        System.out.print(variavel);
+        a = 5;
+        b = 6;
+        /*String resultado ="";*/
+        /* EXEMPLO DE CONDICIONAL UTILIZANDO UMA ESTRUTURA IF/ELSE */
+        /* OPERADOR TERNARIO */
+        /*if(a==b)
+            resultado = "verdadeiro";
+        else
+            resultado = "falso";*/
+
+            /*String resultado = a == b ? "verdadeiro" : "falso";*/
+            int resultado = a == b ? 1 : 0;
+
+
+            System.out.println(resultado);
     }
 }
